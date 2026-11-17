@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
+import { Hero } from './hero/hero';
 
 @Component({
-  imports: [],
+  imports: [Hero],
   selector: 'app-landing',
   styleUrl: './landing.scss',
   templateUrl: './landing.html',
